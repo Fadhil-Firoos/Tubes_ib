@@ -1,0 +1,39 @@
+{"intents": [
+    {"tag": "salam",
+     "patterns": ["Hai", "Hi", "Halo", "Apa Kabar", "Selamat Pagi", "Selamat Siang", "Selamat Malam", "Salam", "Ping", "P"],
+     "responses": ["Halo!", "Hai", "Halo, ada yang bisa saya bantu?", "Halo selamat datang", "Hai Kawan"]
+    },
+    {"tag": "bye",
+     "patterns": ["Dadah", "Selamat Tinggal", "Dah", "Daah", "Semoga harimu menyenangkan", "Ok makasih", "Sampai Jumpa Lagi", "Ok bye"],
+     "responses": ["Sampai jumpa lagi yaa", "Kalau ada masalah, hubungi aku lagi ya", "Semoga harimu menyenangkan!"]
+    },
+    {"tag": "nama",
+     "patterns": ["nama kamu siapa?", "lu siapa?", "siapa sih lo?", "lu sape ?", "nama lo sape dah ?", "nama?"],
+     "responses": ["Namaku Bubub Bot, salam kenal kak!", "Halo, aku Bubub Bot!", "Kenalin, aku Bubub Bot!"]
+    },
+    {"tag": "pekerjaan",
+     "patterns": ["lu ngapain?", "pekerjaan kamu apa?", "lu kerja apa?", "tugas kamu apa?", "tugas lo ngapain?"],
+     "responses": ["Aku bantu Kelompok IB dari Fadhil, Bayu, Ilham, Andreyan, Maharani dalam UAS IB", "Tugasku jadi asisten untuk menyelesaikan UAS IB"]
+    },
+    {"tag": "python",
+    "patterns": ["emang python apa si?", "apa tuh python?", "emang python apa sih?", "wah apa tuh python?", "python emang apa?"],
+    "responses": ["Python adalah bahasa pemrograman tingkat tinggi yang bersifat interpretatif, mudah dibaca, dan mendukung paradigma pemrograman berorientasi objek, prosedural, serta fungsional. Dikembangkan oleh Guido van Rossum pada awal 1990-an, Python menjadi populer karena sintaksisnya yang sederhana dan ekosistemnya yang kaya. Python digunakan dalam berbagai bidang seperti pengembangan web, ilmu data, kecerdasan buatan, pengembangan perangkat lunak, dan otomatisasi tugas. Kelebihan Python termasuk keberlanjutan, portabilitas, dan komunitas pengguna yang besar, yang berkontribusi pada pertumbuhan dan keberlanjutan bahasa ini."]
+    },
+    {"tag": "ngodingpython_typo",
+    "patterns": ["emang python apa ?", "apaan si piton?", "emang phyton apa sih?", "wah apa tuh piton?", "pithon emang apa?", "piyon itu apa sih"],
+    "responses": ["python kaak, jangan bikin emosi deh", "Typo kak, python kali maksudnya"]
+    },
+    {"tag": "youtube",
+     "patterns": ["channel nya bisa diliat dimana?", "mana linknya?", "minta link dong!", "youtube nya apa?", "dimana urlnya?"],
+     "responses": ["Bisa dilihat di https://www.youtube.com/@KelasTerbuka, jangan lupa subscribe ya kak!", "Ini kak link nya https://www.youtube.com/@KelasTerbuka. Disubscribe ya kak!"]
+    },
+    {"tag": "komunitas",
+     "patterns": ["kalau mau tanya-tanya kemana ya?", "ada komunitasnya ga?", "ada grupnya ga?", "grup nya apa?", "kalau mau nanya kodingan kemana ya?", "bisa bantu kodingan ga?", "bisa bantuin ngoding?"],
+     "responses": ["Langsung aja join ke telegram komunitas NgodingPython kak disini https://discord.com/invite/kelas-terbuka-882540885714305064", "Boleh join kesini kak https://discord.com/invite/kelas-terbuka-882540885714305064"]
+    },
+    {"tag": "kemampuan",
+     "patterns": ["kamu bisa apa?", "apa yang bisa anda lakukan?", "kamu bisa ngapain aja?", "lo bisa ngapain?", "apa kemampuan lo?"],
+     "responses": ["Kakak bisa tanya-tanya nama aku, apa yang aku lakukan dan yang berhubungan dengan pengenalan python", "Pokoknya yang berhubungan sama pengenalan python kak :)"]
+    }
+]
+}
